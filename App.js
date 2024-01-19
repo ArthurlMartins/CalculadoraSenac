@@ -61,7 +61,9 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-
+      <View>
+        <Text>Olá mundo!</Text>
+      </View>
       {/* Area onde o resultado é exibido */}
       <View style={styles.results}>
         <Text style={styles.historyText}>{lastNumber}</Text>
